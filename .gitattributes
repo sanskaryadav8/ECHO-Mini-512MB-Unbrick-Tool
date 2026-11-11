@@ -1,0 +1,17 @@
+# Preserve Windows CRLF line endings for driver INF files so rockusb.cat hashes remain valid
+*.inf text eol=crlf
+*.bat text eol=crlf
+*.ini text eol=crlf
+
+# Binary firmware, tools, and driver binaries
+*.img binary
+*.IMG binary
+*.exe binary
+*.dll binary
+*.sys binary
+*.cat binary
+*.rar binary
+*.zip binary
+*.pdf binary
+*.doc binary
+*.docx binary
